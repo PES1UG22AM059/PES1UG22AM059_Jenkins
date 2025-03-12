@@ -14,7 +14,7 @@ pipeline {
         // Build Stage: Compile the C++ file
         stage('Build') {
             steps {
-                sh 'g++ main/hello.cpp -o main/hello_exec'
+                sh 'g++ main/nonexistent.cpp -o main/hello_exec'
             }
         }
 
